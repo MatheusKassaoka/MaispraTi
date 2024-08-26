@@ -120,3 +120,52 @@ livros.splice(2, 0, 1, 'Animais Fantásticos') // o 0 vai fazer nao deletar nada
 
 // site bom MDN DOCS
 console.log(livros)
+
+// Exercício: Verificar se um número é primo
+let numeroPrimo = Number(prompt('Qual número que deseja verificar? '));
+
+for (let i = 1; i < numeroPrimo; i++) {
+    if ((numeroPrimo % i === 0) && (i !== 1)) {
+        console.log('Não é primo!');
+        break;
+    }
+
+    if (i === (numeroPrimo - 1)) {
+        console.log('É primo!');
+    }
+}
+
+// Exemplo adicional: Imprimir os 50 primeiros números primos maiores que 100
+let contadorPrimos = 0;
+let numeroAtual = 100;
+
+do {
+    let totalDivisores = 0;
+    for (let i = 1; i <= numeroAtual; i++) {
+        if (numeroAtual % i === 0) {
+            totalDivisores++;
+        }
+    }
+
+    if (totalDivisores === 2) { // Número primo tem exatamente dois divisores
+        console.log(numeroAtual);
+        contadorPrimos++;
+    }
+
+    numeroAtual++;
+} while (contadorPrimos < 50);
+
+// Trabalhando com arrays
+let carros = Array();
+
+carros[0] = 'Civic';
+carros[1] = 10;
+carros[2] = true;
+carros['Hyago'] = '10';
+
+let motos = Array('CBR', 'Ninja', 10);
+let livros = ['Senhor dos Anéis', 'O Hobbit', 'Harry Potter', 'Sherlock Holmes'];
+
+// Manipulando o array de livros
+livros.splice(2, 1, 'Animais Fantásticos'); // Substitui 'Harry Potter' por 'Animais Fantásticos'
+console.log(livros);

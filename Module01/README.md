@@ -1,14 +1,16 @@
-                                    Instruções
+                                Olá pessoas, muito feliz de ver vocês aqui
 
-                                    Para a execução dos códigos dos exercícios, siga as intruções a seguir:
+                                Segue as instruções para a configuração e execução dos arquivos
 
-                                    Além de ter o NodeJs junto ao VSCode, é necessária a instalação no terminal do VSCode para funcionamneto local da biblioteca prompt-sync do NodeJs: npm install prompt-sync;
+                                Primeiramente é preciso instalar o Node.js através deste link: https://nodejs.org/en/download/package-manager/current e o Visual Studio Code https://code.visualstudio.com/download.
 
-                                    Copie todo esse  arquivo e cole em um novo arquivo JavaScript (example.js) ou realize o seu download e abra-o no VSCode, selecionando a pasta ao qual ele está alocado e, em seguida, o arquivo;
+                                Em seguida, abra o terminal do VSCode e digite npm install prompt-sync
+                                Isso permitirá o funcionamento local da biblioteca prompt-sync do Node
 
-                                    Para rodar localmente o código, instale a extens~çao no  VSCode "Code Runner", selecione o código do exercício desejado e poressione o botão Run Code ( ou Ctrl + Alt + N);
+                                Assim você estará apto a executar os códigos aqui presentes
 
-                                    Caso em algum momento o terminal apre de funcionar, exclua-o e inicie novamente pela extensão "Code Runner" para já executar o código desejado;
+                                Para isso, você pode realizar o seu download e executar ele no VsCode, recomendando-se a criar uma pasta para colocar os arquivos e assim abrir a pasta já com todos os arquivos juntos, ou há a opção de copiar todo o código e rodar ele em um arquivo de JavaScript
 
-                                    As instruções e os códigos foram feitos em um S.IO.
-                                    Se for  MAC
+                                Grato desde já, e até logo
+                                    
+                        
